@@ -74,8 +74,8 @@
       ]
     },
     "/home/play/Área de Trabalho/meu-portal-tchauzinho/contracts/WavePortal.sol": {
-      "lastModificationDate": 1651884861925,
-      "contentHash": "d310db4ea86b209c90a5d6d96e9ae34e",
+      "lastModificationDate": 1651888133560,
+      "contentHash": "2a6140a39ea65d5f439798147bc6f429",
       "sourceName": "contracts/WavePortal.sol",
       "solcConfig": {
         "version": "0.8.4",
