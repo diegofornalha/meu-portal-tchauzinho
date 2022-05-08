@@ -2,11 +2,11 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/play/Área de Trabalho/meu-portal-tchauzinho/contracts/Greeter.sol": {
-      "lastModificationDate": 1651883572558,
+      "lastModificationDate": 1652012693114,
       "contentHash": "605e7f9915c5732ff4eabce6d0252f2e",
       "sourceName": "contracts/Greeter.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.0",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -39,11 +39,11 @@
       ]
     },
     "/home/play/Área de Trabalho/meu-portal-tchauzinho/node_modules/hardhat/console.sol": {
-      "lastModificationDate": 1651882347625,
+      "lastModificationDate": 1652012067751,
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.0",
         "settings": {
           "optimizer": {
             "enabled": false,
@@ -74,11 +74,11 @@
       ]
     },
     "/home/play/Área de Trabalho/meu-portal-tchauzinho/contracts/WavePortal.sol": {
-      "lastModificationDate": 1651888133560,
+      "lastModificationDate": 1652012688490,
       "contentHash": "2a6140a39ea65d5f439798147bc6f429",
       "sourceName": "contracts/WavePortal.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.0",
         "settings": {
           "optimizer": {
             "enabled": false,
