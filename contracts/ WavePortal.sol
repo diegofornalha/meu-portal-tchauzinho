@@ -13,7 +13,7 @@ contract WavePortal {
     event NewWave(address indexed from, uint256 timestamp, string message);
 
     /*
-     * Crio um struct Wave.
+     * Cria um struct Wave.
      * Um struct é basicamente um tipo de dados customizado onde nós podemos customizar o que queremos armazenar dentro dele
      */
     struct Wave {
@@ -40,27 +40,23 @@ contract WavePortal {
         console.log("%s tchauzinhou com a mensagem %s", msg.sender, _message);
 
         /*
-         * Aqui é onde eu efetivamenet armazeno o tchauzinho no array.
+         * Aqui é onde eu efetivamenete armazeno o tchauzinho no array.
          */
         waves.push(Wave(msg.sender, _message, block.timestamp));
 
-        /*
-         * Eu adicionei algo novo aqui. Use o Google para tentar entender o que é e depois me conte o que aprendeu em #general-chill-chat
-         */
+        //#general-chill-chat
         emit NewWave(msg.sender, block.timestamp, _message);
     }
 
     /*
      * Adicionei uma função getAllWaves que retornará os tchauzinhos.
-     * Isso permitirá recuperar os tchauzinhos a partir do nosso site!
+     * Isso permitirá recuperar os tchauzinhos a partir do site!
      */
     function getAllWaves() public view returns (Wave[] memory) {
         return waves;
     }
 
     function getTotalWaves() public view returns (uint256) {
-        // Opcional: Adicione esta linha se você quer ver o contrato imprimir o valor!
-        // Também imprimirá em run.js.
         console.log("Temos %d tchauzinhos no total!", totalWaves);
         return totalWaves;
     }
