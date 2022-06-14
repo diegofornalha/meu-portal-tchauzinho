@@ -1,8 +1,8 @@
-# Basic Sample Hardhat Project
+# Projeto básico de capacete de segurança
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Este projeto demonstra um caso de uso básico do Hardhat. Ele vem com um contrato de amostra, um teste para esse contrato, um script de amostra que implanta esse contrato e um exemplo de implementação de tarefa, que simplesmente lista as contas disponíveis.
 
-Try running some of the following tasks:
+Tente executar algumas das seguintes tarefas:
 
 ```shell
 npx hardhat accounts
