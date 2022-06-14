@@ -5,7 +5,6 @@
   "main": "index.js",
   "dependencies": {
     "@nomiclabs/buidler": "^1.4.8",
-    "@nomiclabs/hardhat-waffle": "^2.0.3",
     "abort-controller": "^3.0.0",
     "abstract-leveldown": "^6.3.0",
     "accepts": "^1.3.8",
@@ -66,7 +65,6 @@
     "call-bind": "^1.0.2",
     "camelcase": "^6.3.0",
     "caseless": "^0.12.0",
-    "chai": "^4.3.6",
     "chalk": "^2.4.2",
     "check-error": "^1.0.2",
     "chokidar": "^3.5.3",
@@ -143,10 +141,8 @@
     "eth-lib": "^0.1.29",
     "ethereum-bloom-filters": "^1.0.10",
     "ethereum-cryptography": "^0.1.3",
-    "ethereum-waffle": "^3.4.4",
     "ethereumjs-abi": "^0.6.8",
     "ethereumjs-util": "^7.1.4",
-    "ethers": "^5.6.6",
     "ethjs-unit": "^0.1.6",
     "ethjs-util": "^0.1.6",
     "event-target-shim": "^5.0.1",
@@ -539,6 +535,10 @@
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.6.8",
     "hardhat": "^2.9.9",
     "mocha": "^9.2.2"
   },
