@@ -9,7 +9,26 @@ npx hardhat accounts
 npx hardhat compile
 npx hardhat clean
 npx hardhat test
-npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
+```
+
+para rodar o o programa adicionando um chauzinho:
+
+```
+npx hardhat run scripts/run.js
+```
+Rodar Rede local ethereum com 20 contas:
+```
+npx hardhat node
+```
+
+Dar deploy da rede local:
+```
+npx hardhat run scripts/deploy.js --network localhost
+```
+
+Dar deploy da rede de teste:
+```
+
 ```
